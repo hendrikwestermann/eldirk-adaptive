@@ -1,1 +1,3 @@
-# eldirk-adaptive
+#  Minimal code example of the publication "On the accuracy, stability and computational efficiency of explicit last-stage
+diagonally implicit Runge-Kutta methods (ELDIRK) for the adaptive solution of phase-field problems" published 
+xxx by Hendrik Westermann and Rolf Mahnken from Paderborn University.
