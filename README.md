@@ -4,17 +4,17 @@ diagonally implicit Runge-Kutta methods (ELDIRK) for the adaptive solution of ph
 xxx by Hendrik Westermann and Rolf Mahnken from Paderborn University.
 
 # Installation
-Create a virtual environment with
+Create a virtual environment with:
 ```
 source ./create_env.sh
 ```
 
 # Usage
-Active the virtual environment with
+Activate the virtual environment with:
 ```
 source env/bin/activate 
 ```
-Start job with
+Start job with:
 ```
 python main.py
 ```
