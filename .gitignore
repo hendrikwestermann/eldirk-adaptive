@@ -1,0 +1,6 @@
+__pycache__/
+*/__pycache__/
+env
+I*.p
+J*.p
+kval*.p

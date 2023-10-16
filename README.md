@@ -5,5 +5,5 @@ xxx by Hendrik Westermann and Rolf Mahnken from Paderborn University.
 
 # Installation:
 ```
-sh ./create_env.sh
+source ./create_env.sh
 ```
