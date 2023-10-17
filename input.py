@@ -235,19 +235,6 @@ def sobel_filter(meta, x):
     foo[sob==True] = 0.0
     foo[sob==False] = 1.0
 
-    # fig = plt.figure()
-    # ax1 = fig.add_subplot(321)
-    # ax2 = fig.add_subplot(322)
-    # ax3 = fig.add_subplot(323)
-    # ax4 = fig.add_subplot(324)
-    # ax5 = fig.add_subplot(325)
-    # ax1.imshow(sobx)
-    # ax2.imshow(soby)
-    # ax3.imshow(bn_imgx)
-    # ax4.imshow(bn_imgy)
-    # ax5.imshow(foo)
-    # plt.show()
-
     buffer = foo.ravel()
     for inode in range(meta.nnode):
         x[inode*meta.ndof] = buffer[inode]
@@ -257,8 +244,7 @@ def sobel_filter(meta, x):
 
 def butcher(meta):
     if meta.nrunge==1:  # RK1 Euler implicit
-        # meta.name = 'rk1_euler_imp'
-        meta.name = 'euler_implicit'
+        meta.name = 'rk1_euler_imp'
         meta.nstage = 1
         meta.norder = 1
         a = np.zeros((meta.nstage,meta.nstage))
